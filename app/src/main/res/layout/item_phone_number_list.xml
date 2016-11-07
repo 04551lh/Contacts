@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/paddingTB_phoneNumber"
+    android:paddingBottom="@dimen/paddingTB_phoneNumber" 
+    android:paddingRight="@dimen/paddingLR_phoneNumber"
+    android:paddingLeft="@dimen/paddingLR_phoneNumber">
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/font_h3_size"
+        android:text="测试文本"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tv_phoneName"/>
+    <ImageView 
+        android:layout_height="@dimen/hw_png" 
+        android:layout_width="@dimen/hw_png" 
+        android:layout_centerVertical="true" 
+        android:id="@+id/iv_arrowRight" 
+        android:background="@drawable/arrow_right" 
+        android:layout_alignParentRight="true"/>
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:textSize="@dimen/font_h3_size" 
+        android:text="测试文本" 
+        android:layout_centerVertical="true" 
+        android:id="@+id/tv_phoneNumber" 
+        android:layout_toLeftOf="@+id/iv_arrowRight" 
+        android:layout_marginRight="15dp"/>
+</RelativeLayout>
